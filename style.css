@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    gap: 10px;
+}
+
+.display {
+    background-color: rgb(0, 0, 0);
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.keypad {
+    display: flex;
+    gap: 10px;
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.digits {
+    display: flex;
+    width: 300px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.digit {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    flex: 1 1 80px;
+    border-radius: 5px;
+    color: white;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100px;
+}
+
+.operator {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 20px;
+    flex: 1 1 50px;
+}
+
+.equals {
+    flex: 0 0 105px;
+}
